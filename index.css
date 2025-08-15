@@ -295,7 +295,7 @@ section:nth-of-type(1) {
     font-family: 18px;
     line-height: 22px;
   }
-  > a {
+  A > a {
     width: 100%;
     height: fit-content;
     padding-block: 14px;
@@ -337,42 +337,4 @@ section:nth-of-type(1) {
   position: absolute;
   top: 10px;
   right: 10px;
-}
-#list {
-  padding: 16px;
-  background-color: white;
-
-  border-radius: 8px;
-
-  box-shadow: 0 0 32px 1px #00000015;
-
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
-  > h2 {
-    width: 100%;
-    padding: 6px 12px;
-
-    border-radius: 4px;
-
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 500;
-
-    background-color: #360568;
-    color: white;
-  }
-  > ul {
-    padding-inline: 32px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-
-    > li {
-      font-size: 18px;
-      line-height: 18px;
-    }
-  }
 }
