@@ -1,0 +1,38 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+#person {
+  width: 300px;
+  height: 350px;
+
+  padding: 12px;
+  background-color: #a193d1;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  > h1 {
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+  }
+  > a {
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  > img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
+}

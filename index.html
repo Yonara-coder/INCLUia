@@ -6,6 +6,7 @@
     <title>INCLUia</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <script src="main.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,9 +18,10 @@
   </head>
   <body>
     <header>
-      <a href="#">O que é</a>
-      <a href="#">Categorias</a>
-      <a href="#">Sobre</a>
+      <a href="index.html">Home</a>
+      <a href="oquee.html">O que é</a>
+      <a href="categorias.html">Categorias</a>
+      <a href="sobre.html">Sobre</a>
     </header>
     <section>
       <div id="left">
@@ -33,16 +35,18 @@
           contribuição para uma educação mais inovadora e inclusiva.
         </p>
 
-        <h2>Propósitos pedagógicos</h2>
-        <ul>
-          <li>PID - Previsão e Intervenção de Desempenho Acadêmico;</li>
-          <li>PIC - Previsão e Intervenção de Comportamento Acadêmico;</li>
-          <li>EA - Engajamento de Alunos;</li>
-          <li>SA - Suporte Automático;</li>
-          <li>AL - Aconselhamento;</li>
-          <li>MPA - Monitoramento do Processo de Aprendizagem;</li>
-          <li>ACA - Avaliação/Classificação Automatizada;</li>
-        </ul>
+        <div id="list">
+          <h2>Propósitos pedagógicos</h2>
+          <ul>
+            <li>PID - Previsão e Intervenção de Desempenho Acadêmico;</li>
+            <li>PIC - Previsão e Intervenção de Comportamento Acadêmico;</li>
+            <li>EA - Engajamento de Alunos;</li>
+            <li>SA - Suporte Automático;</li>
+            <li>AL - Aconselhamento;</li>
+            <li>MPA - Monitoramento do Processo de Aprendizagem;</li>
+            <li>ACA - Avaliação/Classificação Automatizada;</li>
+          </ul>
+        </div>
       </div>
 
       <div id="wrapper">
@@ -82,44 +86,47 @@
 
           <div id="pic" class="circle">
             <span class="ai" id="note">
-              <img src="./icons/notebooklm.svg" alt="notebooklm">
+              <img src="./icons/notebooklm.svg" alt="notebooklm" />
             </span>
             <span class="ai" id="pipp">
-              <img src="./icons/pippit.svg" alt="pippit">
-
+              <img src="./icons/pippit.svg" alt="pippit" />
             </span>
           </div>
           <div id="ea" class="circle">
             <span class="ai" id="mid">
+              <img src="./icons/midjourney.png" alt="midjourney" />
             </span>
             <span class="ai" id="suno">
-              <img src="./icons/suno.svg" alt="suno">
+              <img src="./icons/suno.svg" alt="suno" />
             </span>
             <span class="ai" id="chat">
-              <img src="./icons/chatgpt.svg" alt="chatgpt">
+              <img src="./icons/chatgpt.svg" alt="chatgpt" />
+            </span>
+            <span class="ai" id="stable">
+              <img src="./icons/stable-diffusion.webp" alt="stable-diffusion" />
             </span>
             <span class="ai" id="stab">
-              <img src="./icons/stability.svg" alt="stability">
+              <img src="./icons/stability.svg" alt="stability" />
             </span>
           </div>
           <div id="sa" class="circle"></div>
           <div id="al" class="circle">
             <span class="ai" id="gemi">
-              <img src="./icons/gemini.svg" alt="gemini">
+              <img src="./icons/gemini.png" alt="gemini" />
             </span>
           </div>
           <div id="mpa" class="circle"></div>
           <div id="aca" class="circle">
-            <span class="ai" id="elev">
-            </span>
+            <span class="ai" id="elev"> </span>
             <span class="ai" id="kli">
-              <img src="./icons/kling.svg" alt="kling">
+              <img src="./icons/kling.svg" alt="kling" />
             </span>
           </div>
         </div>
       </div>
     </section>
     <div id="modal" class="invisible">
+      <div id="content"></div>
       <button id="close">X</button>
     </div>
   </body>
