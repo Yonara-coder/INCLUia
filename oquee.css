@@ -1,18 +1,11 @@
-/* Centraliza o conteúdo na tela */
-section:nth-of-type(1) {
+section {
   margin-top: 48px;
   padding: 32px 128px;
 
   display: flex;
   justify-content: space-between;
-  gap: 128px;
-}
-#left {
-  width: 43%;
-
-  display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 24px;
 
   > h1 {
     display: flex;
@@ -32,5 +25,18 @@ section:nth-of-type(1) {
   > p {
     font-size: 18px;
     line-height: 26px;
+  }
+  > h2 {
+    width: 100%;
+    padding: 6px 12px;
+
+    border-radius: 4px;
+
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+
+    background-color: #360568;
+    color: white;
   }
 }
