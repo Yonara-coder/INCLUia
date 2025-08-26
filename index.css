@@ -1,21 +1,11 @@
-/*<!-- section:nth-of-type(1) {
+section:nth-of-type(1) {
   margin-top: 48px;
   padding: 32px 128px;
 
   display: flex;
   justify-content: space-between;
   gap: 128px;
-}-->*/
-section:nth-of-type(1) {
-  margin-top: 48px;
-  padding: 32px 128px;
-
-  display: flex;
-  justify-content: center; /* centraliza os elementos no eixo horizontal */
-  align-items: center; /* centraliza no eixo vertical */
-  gap: 128px; /* mantém o espaçamento entre os blocos */
 }
-
 #list {
   padding: 16px;
   background-color: white;
