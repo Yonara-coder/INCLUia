@@ -181,6 +181,14 @@ function showModal(name) {
     p.innerText = `O Stability é uma plataforma de inteligência artificial especializada na criação de músicas originais a partir de comandos em texto. Ele compõe melodia, letra, arranjos e até a voz cantada, permitindo que usuários sem conhecimentos técnicos produzam músicas completas. Suporta diversos estilos e gêneros musicais, podendo gerar desde trilhas instrumentais até canções com vocais realistas. A ferramenta é usada para projetos criativos, comerciais e de entretenimento, facilitando a produção musical de forma rápida e acessível.`;
 
     append();
+
+    const a1 = document.createElement("a");
+    a1.innerText = "Plano de Aula 1º ano";
+    setAttr(a1);
+    a1.href =
+      "https://docs.google.com/document/d/1kYONcLIX8C1nSrKVj0FOeahirAaiOA2wB5gW02a2T4U/edit?tab=t.0";
+
+    content.appendChild(a1);
   }
 
   if (name === "elev") {
