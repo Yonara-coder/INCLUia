@@ -31,17 +31,14 @@ section:nth-of-type(1) {
     background-color: #360568;
     color: white;
   }
-  > ul {
-    padding-inline: 32px;
-
+  > #list > ul {
+    margin: 0;
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
 
-    > li {
-      font-size: 18px;
-      line-height: 18px;
-    }
+    list-style: none;
   }
 }
 
@@ -376,4 +373,23 @@ section:nth-of-type(1) {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+header {
+  display: flex; /* transforma em flexbox */
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  gap: 32px; /* espaço entre os links */
+  padding: 20px; /* espaçamento interno */
+  background-color: #c5a0ea; /* cor de fundo */
+}
+
+header a {
+  color: white; /* cor dos links */
+  text-decoration: none; /* remove sublinhado */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header a:hover {
+  opacity: 0.7; /* efeito ao passar o mouse */
 }
