@@ -16,7 +16,7 @@ body {
 header {
   width: 100%;
   height: fit-content;
-  padding: 20px;
+  padding: 8px 20px;
 
   position: sticky;
   top: 0px;
@@ -27,18 +27,24 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 16px;
 
   background-color: #36056899;
 
   > a {
+    padding: 10px;
+
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 12px;
+
+    transition: all ease-in-out 350ms;
 
     &:hover {
-      opacity: 0.8;
+      background-color: #360568;
+      bac
     }
   }
 }
