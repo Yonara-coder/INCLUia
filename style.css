@@ -48,18 +48,44 @@ section {
 }
 footer {
   width: 100%;
-  padding-block: 12px;
+  padding-block: 12px; /* Preenchimento superior e inferior */
+  padding-inline: 20px; /* Preenchimento lateral para não grudar nas bordas */
+  box-sizing: border-box; /* Inclui o padding na largura total do elemento */
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  background-color: #360568; /* Cor de fundo roxa */
+  color: white; /* Cor do texto */
+  font-size: 12px; /* Tamanho da fonte */
+  line-height: 1.4; /* Espaçamento entre as linhas de texto para melhor leitura */
 
-  background-color: #360568;
-  color: white;
-  font-size: 12px;
+  /* A propriedade chave para centralizar o texto em múltiplas linhas */
+  text-align: center; /* Centraliza horizontalmente todo o conteúdo em linha (texto, links, imagens) dentro do footer */
 
-  > a {
-    color: white;
-  }
+  /* As propriedades 'display: flex' e suas relacionadas (justify-content, align-items, gap)
+     não são necessárias para este layout vertical e foram removidas, pois elas organizam
+     os itens horizontalmente por padrão. */
+}
+
+/* Estilos para os parágrafos dentro do footer (que representam cada linha) */
+footer p {
+  margin: 0; /* Remove as margens padrão dos parágrafos para controlar o espaçamento */
+  padding: 2px 0; /* Adiciona um pequeno espaçamento vertical entre as "linhas" */
+}
+
+/* Estilos para todos os links dentro do footer */
+footer a {
+  color: white; /* Define a cor dos links como branco */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse para indicar que é clicável */
+}
+
+/* Estilos para as imagens (ícones) dentro do footer */
+footer img {
+  max-width: 1em; /* Define a largura máxima dos ícones baseada no tamanho da fonte atual */
+  max-height: 1em; /* Define a altura máxima dos ícones */
+  /* O margin-left: 0.2em para os ícones já está no HTML via inline style,
+     mas você pode movê-lo para cá se preferir centralizar o CSS */
+  vertical-align: middle; /* Ajuda a alinhar os ícones verticalmente com o texto se estiverem na mesma linha */
 }
