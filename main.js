@@ -32,7 +32,7 @@ function showModal(name) {
   if (name === "deepseek") {
     img.src = "./icons/deepseek.png";
     h1.innerText = "DeepSeek";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Deepseek é um motor de busca e assistente de inteligência artificial. Sua principal função é fornecer respostas detalhadas e interativas para as perguntas dos usuários, indo além de simples resultados de busca. Ele se destaca por sua capacidade de compreender contextos complexos, auxiliando em tarefas que exigem uma análise aprofundada de informações. Além disso, busca ser uma ferramenta versátil para diversas necessidades informacionais.`;
 
     append();
 
@@ -47,7 +47,7 @@ function showModal(name) {
   if (name === "ideogram") {
     img.src = "./icons/ideogram.png";
     h1.innerText = "Ideogram";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Ideogram é uma ferramenta de inteligência artificial focada na geração de imagens. Seu grande diferencial é a capacidade superior de criar imagens que incluem texto legível e com tipografia de alta qualidade. Enquanto muitas IAs generativas de imagem falham ao tentar inserir texto, o Ideogram se destaca precisamente nesse aspecto, produzindo logos e designs visuais com clareza textual. Isso a torna ideal para marketing, branding e projetos gráficos onde a mensagem escrita é crucial.`;
 
     append();
 
@@ -62,7 +62,7 @@ function showModal(name) {
   if (name === "stability") {
     img.src = "./icons/stability.svg";
     h1.innerText = "Stability AI";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Stability AI é uma empresa líder no desenvolvimento de modelos de inteligência artificial, especialmente conhecida por sua abordagem de código aberto. Ela se tornou amplamente reconhecida pela criação de tecnologias de geração de imagens, como o popular Stable Diffusion. Seu objetivo é democratizar o acesso à IA, permitindo que desenvolvedores e pesquisadores colaborem e inovem com suas ferramentas. A empresa impulsiona a criatividade através da IA generativa.`;
 
     append();
 
@@ -77,7 +77,7 @@ function showModal(name) {
   if (name === "notebook") {
     img.src = "./icons/notebooklm.svg";
     h1.innerText = "NotebookLM";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `NotebookLM é um assistente de inteligência artificial desenvolvido pelo Google. Ele atua como um "caderno inteligente" que auxilia na organização e resumo de informações. Sua principal funcionalidade é processar e compreender o conteúdo dos seus próprios documentos e diversas outras fontes de dados que você fornecer. Isso permite que você extraia insights, crie rascunhos e sintetize conhecimento de maneira eficiente, otimizando seu estudo ou pesquisa.`;
 
     append();
 
@@ -92,7 +92,7 @@ function showModal(name) {
   if (name === "gemini") {
     img.src = "./icons/gemini.png";
     h1.innerText = "Gemini";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Gemini é um avançado modelo de inteligência artificial multimodal, desenvolvido pelo Google. Sua principal característica é a capacidade de processar e gerar diferentes tipos de dados simultaneamente, como texto, código de programação, áudio, imagens e até vídeos. Essa versatilidade permite que seja aplicado em uma vasta gama de tarefas, desde a criação de conteúdo criativo até a solução de problemas complexos. Ele representa um passo significativo na interação humano-IA.`;
 
     append();
 
@@ -122,7 +122,7 @@ function showModal(name) {
   if (name === "chatgpt") {
     img.src = "./icons/chatgpt.svg";
     h1.innerText = "ChatGPT";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `ChatGPT é um chatbot de inteligência artificial criado pela OpenAI, famoso por sua capacidade de interação conversacional. Ele pode conversar de forma fluida, responder a uma ampla variedade de perguntas e até mesmo gerar textos criativos, como poemas, roteiros e e-mails. Além disso, é capaz de auxiliar na geração de código de programação, tornando-o uma ferramenta versátil para produtividade e criatividade. Sua interface intuitiva o torna acessível a muitos usuários.`;
 
     append();
 
@@ -151,7 +151,7 @@ function showModal(name) {
   if (name === "suno") {
     img.src = "./icons/suno.svg";
     h1.innerText = "Suno";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Suno é uma inteligência artificial inovadora que permite a criação de músicas completas. A partir de descrições textuais simples fornecidas pelo usuário, a IA é capaz de gerar não apenas a melodia e a harmonia, mas também o ritmo e as letras das canções. Ela democratiza a produção musical, permitindo que qualquer pessoa com uma ideia crie faixas originais. É uma ferramenta poderosa para artistas e entusiastas da música.`;
 
     append();
 
@@ -166,7 +166,7 @@ function showModal(name) {
   if (name === "perplexity") {
     img.src = "./icons/perplexity.webp";
     h1.innerText = "Perplexity";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Perplexity é um motor de busca e ferramenta de resposta a perguntas, diferenciando-se por sua abordagem única. Ele não apenas fornece respostas, mas também as sintetiza em resumos concisos e, crucialmente, cita as fontes de onde a informação foi extraída. Isso garante que os usuários possam verificar a veracidade das informações, promovendo maior transparência e confiabilidade. É ideal para quem busca conhecimento rápido e fundamentado.`;
 
     append();
 
@@ -181,7 +181,7 @@ function showModal(name) {
   if (name === "grok") {
     img.src = "./icons/grok.png";
     h1.innerText = "Grok";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Grok é uma inteligência artificial conversacional desenvolvida pela xAI, a empresa de Elon Musk. Uma de suas características distintivas é a capacidade de responder a perguntas com um tom de humor e até mesmo sarcasmo. Além disso, o Grok tem acesso a informações em tempo real através da plataforma X (antigo Twitter). Isso lhe permite fornecer respostas atualizadas e contextualizadas, com uma personalidade mais irreverente em comparação a outras IAs.`;
 
     append();
 
@@ -196,7 +196,7 @@ function showModal(name) {
   if (name === "gemini2") {
     img.src = "./icons/gemini.png";
     h1.innerText = "Gemini";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = ` Gemini é um avançado modelo de inteligência artificial multimodal, desenvolvido pelo Google. Sua principal característica é a capacidade de processar e gerar diferentes tipos de dados simultaneamente, como texto, código de programação, áudio, imagens e até vídeos. Essa versatilidade permite que seja aplicado em uma vasta gama de tarefas, desde a criação de conteúdo criativo até a solução de problemas complexos. Ele representa um passo significativo na interação humano-IA.`;
 
     append();
 
@@ -211,7 +211,7 @@ function showModal(name) {
   if (name === "perplexity2") {
     img.src = "./icons/perplexity.webp";
     h1.innerText = "Perplexity";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Perplexity é um motor de busca e ferramenta de resposta a perguntas, diferenciando-se por sua abordagem única. Ele não apenas fornece respostas, mas também as sintetiza em resumos concisos e, crucialmente, cita as fontes de onde a informação foi extraída. Isso garante que os usuários possam verificar a veracidade das informações, promovendo maior transparência e confiabilidade. É ideal para quem busca conhecimento rápido e fundamentado.`;
 
     append();
 
@@ -226,7 +226,7 @@ function showModal(name) {
   if (name === "notebook2") {
     img.src = "./icons/notebooklm.svg";
     h1.innerText = "NotebookLM";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `NotebookLM é um assistente de inteligência artificial desenvolvido pelo Google. Ele atua como um "caderno inteligente" que auxilia na organização e resumo de informações. Sua principal funcionalidade é processar e compreender o conteúdo dos seus próprios documentos e diversas outras fontes de dados que você fornecer. Isso permite que você extraia insights, crie rascunhos e sintetize conhecimento de maneira eficiente, otimizando seu estudo ou pesquisa.`;
 
     append();
 
@@ -241,7 +241,7 @@ function showModal(name) {
   if (name === "kling") {
     img.src = "./icons/kling.svg";
     h1.innerText = "Kling";
-    p.innerText = `Pippit AI é uma ferramenta com inteligência artificial — incorporada, por exemplo, ao CapCut — que transforma links ou texto em vídeos completos de forma automática. Ela gera vídeos prontos para uso, com avatares digitais que narram conteúdos em vários idiomas. Ideal para criação de vídeos de produtos ou marketing, especialmente para plataformas como Shopify ou Amazon.`;
+    p.innerText = `Kling é um modelo de inteligência artificial desenvolvido na China, com foco principal na geração de vídeos. Sua tecnologia permite criar sequências de vídeo complexas a partir de simples descrições textuais, transformando ideias em conteúdo visual dinâmico. Ele se posiciona como um concorrente forte no crescente campo das tecnologias de vídeo generativo. O Kling busca inovar na produção de conteúdo audiovisual impulsionada por IA.`;
 
     append();
 
