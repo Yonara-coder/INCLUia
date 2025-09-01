@@ -136,25 +136,25 @@ section:nth-of-type(1) {
   border-radius: 4px;
 }
 #sp1 {
-  top: 10px;
+  top: 1.5vh;
 }
 #sp2 {
-  top: 58px;
+  top: 8vh;
 }
 #sp3 {
-  top: 104px;
+  top: 14vh;
 }
 #sp4 {
-  top: 150px;
+  top: 20.5vh;
 }
 #sp5 {
-  top: 194px;
+  top: 27vh;
 }
 #sp6 {
-  top: 242px;
+  top: 33vh;
 }
 #sp7 {
-  top: 286px;
+  top: 39vh;
 }
 #pid {
   height: 42vw;
