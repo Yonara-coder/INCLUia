@@ -120,11 +120,12 @@ section:nth-of-type(1) {
   padding: 4px;
 
   position: absolute;
-  left: 50%;
+  top: 12px;
+  left: calc(50% + 32px);
 
   transform: translateX(-50%);
 
-  z-index: 15;
+  z-index: 50;
 
   font-size: 16px;
   line-height: 16px;
@@ -135,27 +136,6 @@ section:nth-of-type(1) {
   background-color: black;
   border-radius: 4px;
 }
-#sp1 {
-  top: 1.5vh;
-}
-#sp2 {
-  top: 8vh;
-}
-#sp3 {
-  top: 14vh;
-}
-#sp4 {
-  top: 20.5vh;
-}
-#sp5 {
-  top: 27vh;
-}
-#sp6 {
-  top: 33vh;
-}
-#sp7 {
-  top: 39vh;
-}
 #pid {
   height: 42vw;
 
@@ -165,22 +145,20 @@ section:nth-of-type(1) {
   box-shadow: 0 0 32px 1px #00000025;
 }
 #star {
-  width: 100%;
-  height: 100%;
+  width: 44vw;
+  aspect-ratio: 1/1;
 
-  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(110%);
 
   pointer-events: none;
 }
 #star > svg {
   width: 100%;
   height: 100%;
-
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(110%);
 }
 #pic {
   height: 36vw;
@@ -203,7 +181,7 @@ section:nth-of-type(1) {
   background-color: #4a0f75;
 }
 #aca {
-  height: 6vw;
+  height: 7vw;
   background-color: #360568;
 }
 #multimodal {
@@ -246,11 +224,17 @@ section:nth-of-type(1) {
   cursor: pointer;
   transition: all ease-in-out 350ms;
 
+  > img {
+    width: 100%;
+    height: 100%;
+  }
+
   > svg {
     pointer-events: none;
   }
   &:hover {
     transform: translate(-50%, -50%) scale(300%);
+    z-index: 1000 !important;
   }
 }
 #deepseek {
@@ -302,12 +286,12 @@ section:nth-of-type(1) {
   top: 23.5%;
 }
 #notebook2 {
-  left: 30.5%;
-  top: 13.5%;
+  left: 38%;
+  top: 17%;
 }
 #kling {
-  left: 18.5%;
-  top: 23.5%;
+  left: 24%;
+  top: 28%;
 }
 #modal {
   width: 640px;
