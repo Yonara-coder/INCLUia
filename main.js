@@ -161,6 +161,13 @@ function showModal(name) {
     a3.href =
       "https://docs.google.com/document/d/1fX7sqzNpUjHf8n11MZlY9Te097uHpleE8UwA9kT-Phg/edit?tab=t.0";
 
+    const a2 = document.createElement("a");
+    a2.innerText = "Plano de Aula 2º ano";
+    setAttr(a2);
+    a2.href =
+      "https://docs.google.com/document/d/13HPsr5uzDG_mgBmXauDDd7hhJINRHj3b1a1EagLKDCc/edit?tab=t.0";
+
+    content.appendChild(a2);
     content.appendChild(a3);
   }
   if (name === "perplexity") {
