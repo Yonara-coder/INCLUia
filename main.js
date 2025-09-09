@@ -28,6 +28,21 @@ function showModal(name) {
     content.appendChild(h1);
     content.appendChild(p);
   }
+  if (name === "claude") {
+    img.src = "./icons/claude.png";
+    h1.innerText = "CLAUDE AI";
+    p.innerText = `Claude AI é um avançado assistente de inteligência artificial. Ele foi desenvolvido para conversar, gerar textos criativos e responder suas perguntas. É uma ferramenta que busca ser útil, coerente e segura em diversas tarefas. Com ele, você explora informações e cria conteúdo de forma eficaz.`;
+
+    append();
+
+    const a3 = document.createElement("a");
+    a3.innerText = "Plano de Aula 3º ano - Ciências";
+    setAttr(a3);
+    a3.href =
+      "https://docs.google.com/document/d/13yynShtNKf61YagEMaj2ZFJFIjn5mONpJTbgMtUbLYk/edit?tab=t.0";
+
+    content.appendChild(a3);
+  }
 
   if (name === "deepseek") {
     img.src = "./icons/deepseek.png";
@@ -37,7 +52,7 @@ function showModal(name) {
     append();
 
     const a7 = document.createElement("a");
-    a7.innerText = "Plano de Aula 7º ano";
+    a7.innerText = "Plano de Aula 7º ano - Ciências";
     setAttr(a7);
     a7.href =
       "https://docs.google.com/document/d/1i9hqBt3N-XeulCk6DE5gxDSLno-DJGv1j3PbuVH844Y/edit?tab=t.0";
@@ -52,7 +67,7 @@ function showModal(name) {
     append();
 
     const a7 = document.createElement("a");
-    a7.innerText = "Plano de Aula 7º ano";
+    a7.innerText = "Plano de Aula 7º ano - Ciências";
     setAttr(a7);
     a7.href =
       "https://docs.google.com/document/d/1i9hqBt3N-XeulCk6DE5gxDSLno-DJGv1j3PbuVH844Y/edit?tab=t.0";
@@ -67,7 +82,7 @@ function showModal(name) {
     append();
 
     const a1 = document.createElement("a");
-    a1.innerText = "Plano de Aula 1º ano";
+    a1.innerText = "Plano de Aula 1º ano - Português";
     setAttr(a1);
     a1.href =
       "https://docs.google.com/document/d/1kYONcLIX8C1nSrKVj0FOeahirAaiOA2wB5gW02a2T4U/edit?tab=t.0";
@@ -82,7 +97,7 @@ function showModal(name) {
     append();
 
     const a2 = document.createElement("a");
-    a2.innerText = "Plano de Aula 2º ano";
+    a2.innerText = "Plano de Aula 2º ano - Ciências";
     setAttr(a2);
     a2.href =
       "https://docs.google.com/document/d/1cdmPKt97IPzLVIIFJAz7Lf5ucg0rAkh3uLBmVpDhqYE/edit?tab=t.0";
@@ -97,7 +112,7 @@ function showModal(name) {
     append();
 
     const a2 = document.createElement("a");
-    a2.innerText = "Plano de Aula 2º ano";
+    a2.innerText = "Plano de Aula 2º ano - Artes";
     setAttr(a2);
     a2.href =
       "https://docs.google.com/document/d/1qAHDwR4bernbb1i_Yc6vmB-Wf-NdGlb_lbKmnv2IrQY/edit?tab=t.0";
@@ -112,7 +127,7 @@ function showModal(name) {
     append();
 
     const a2 = document.createElement("a");
-    a2.innerText = "Plano de Aula 2º ano";
+    a2.innerText = "Plano de Aula 2º ano - Ciências";
     setAttr(a2);
     a2.href =
       "https://docs.google.com/document/d/1cdmPKt97IPzLVIIFJAz7Lf5ucg0rAkh3uLBmVpDhqYE/edit?tab=t.0";
@@ -139,7 +154,7 @@ function showModal(name) {
       "https://docs.google.com/document/d/1zqGcyyRiO2XTrYB-BLc2mIpqw8IIZ-kZ/edit";
 
     const a5 = document.createElement("a");
-    a5.innerText = "Plano de Aula 5º ano";
+    a5.innerText = "Plano de Aula 5º ano - Português";
     setAttr(a5);
     a5.href =
       "https://docs.google.com/document/d/1Sz0jdCPw4Lr3G-e6q9DMwlXobE8JFrr_tACgGqkae5o/edit?tab=t.0";
@@ -156,13 +171,13 @@ function showModal(name) {
     append();
 
     const a3 = document.createElement("a");
-    a3.innerText = "Plano de Aula 3º ano";
+    a3.innerText = "Plano de Aula 3º ano - Ciências";
     setAttr(a3);
     a3.href =
       "https://docs.google.com/document/d/1fX7sqzNpUjHf8n11MZlY9Te097uHpleE8UwA9kT-Phg/edit?tab=t.0";
 
     const a2 = document.createElement("a");
-    a2.innerText = "Plano de Aula 2º ano";
+    a2.innerText = "Plano de Aula 2º ano - Matemática";
     setAttr(a2);
     a2.href =
       "https://docs.google.com/document/d/13HPsr5uzDG_mgBmXauDDd7hhJINRHj3b1a1EagLKDCc/edit?tab=t.0";
@@ -178,7 +193,7 @@ function showModal(name) {
     append();
 
     const a9 = document.createElement("a");
-    a9.innerText = "Plano de Aula 9º ano";
+    a9.innerText = "Plano de Aula 9º ano - Ciências";
     setAttr(a9);
     a9.href =
       "https://docs.google.com/document/d/12sbgrOgHmSmmj82qqwbKXX8aZV_Eg9Nc/edit";
@@ -193,7 +208,7 @@ function showModal(name) {
     append();
 
     const a5 = document.createElement("a");
-    a5.innerText = "Plano de Aula 5º ano";
+    a5.innerText = "Plano de Aula 5º ano - Geografia";
     setAttr(a5);
     a5.href =
       "https://docs.google.com/document/d/11Slyxhj2kfF8UyTaHz4OnoMK7LvQF85be9rRjExuf0M/edit?tab=t.0";
@@ -208,7 +223,7 @@ function showModal(name) {
     append();
 
     const a8 = document.createElement("a");
-    a8.innerText = "Plano de Aula 8º ano";
+    a8.innerText = "Plano de Aula 8º ano - Química";
     setAttr(a8);
     a8.href =
       "https://docs.google.com/document/d/11FjqzbykgAVp78y7Lcj86Iivaj_CYKS4Q9mCWw2yv4g/edit?tab=t.0";
@@ -223,7 +238,7 @@ function showModal(name) {
     append();
 
     const a6 = document.createElement("a");
-    a6.innerText = "Plano de Aula 6º ano";
+    a6.innerText = "Plano de Aula 6º ano - Filosofia";
     setAttr(a6);
     a6.href =
       "https://docs.google.com/document/d/1hv_Fl-fLfFdnz4kGZkd8832zV1vSyz2jbmRLmt-mwBM/edit?tab=t.0";
@@ -238,7 +253,7 @@ function showModal(name) {
     append();
 
     const a9 = document.createElement("a");
-    a9.innerText = "Plano de Aula 9º ano";
+    a9.innerText = "Plano de Aula 9º ano - História";
     setAttr(a9);
     a9.href =
       "https://docs.google.com/document/d/1gEMURtZDTLpgS2G694ClmrKRdL9iA61c/edit";
@@ -253,12 +268,27 @@ function showModal(name) {
     append();
 
     const a9 = document.createElement("a");
-    a9.innerText = "Plano de Aula 9º ano";
+    a9.innerText = "Plano de Aula 9º ano - Matemática";
     setAttr(a9);
     a9.href =
       "https://docs.google.com/document/d/1nzES1mq9vJaIf6TNV1MPHUtv19psQF7U/edit";
 
     content.appendChild(a9);
+  }
+  if (name === "leonardo") {
+    img.src = "./icons/leonardo.png";
+    h1.innerText = "Leonardo AI";
+    p.innerText = `O Leonardo AI é uma plataforma de inteligência artificial focada em criação de imagens e design digital. Ele permite gerar artes realistas, estilizadas ou conceituais a partir de descrições em texto. É usado por artistas, designers e criadores de jogos para desenvolver personagens, cenários, ilustrações e até texturas. A ferramenta oferece opções de ajuste fino, personalização de estilos e treinamento de modelos próprios. Além disso, integra recursos colaborativos e de organização para fluxos criativos.`;
+
+    append();
+
+    const a5 = document.createElement("a");
+    a5.innerText = "Plano de Aula 5º ano - Artes";
+    setAttr(a5);
+    a5.href =
+      "https://docs.google.com/document/d/1UGOg-3wIasSlVOYJ59uCMxYUhG_oqGDySK1sIqNlG94/edit?tab=t.0";
+
+    content.appendChild(a5);
   }
 }
 
